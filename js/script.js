@@ -13,7 +13,7 @@ $(document).ready(function () {
     let currentNumber = 0,
         arrayOfHeaderTabs = document.querySelectorAll('.info-header-tab'),
         arrayOfTabsContent = document.querySelectorAll('.info-tabcontent'),
-        countDownDate = new Date('Dec 31, 2020 00:00:00').getTime(),
+        countDownDate = new Date('Dec 31, 2021 00:00:00').getTime(),
         countDownFunction = setInterval(function () {
             let currentTime = new Date().getTime(),
                 distance = countDownDate - currentTime,
